@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Developer - una pequeña muestra de mis trabajos como desarrollador web</title>
+    <link rel="stylesheet" href="/css/configbts.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/css/web.css?v=2.42"
+      media="all"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/jpg" href="/media/favicon.png" />
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  </head>
+  <body>
+    <!-- nav-->
+    <nav class="container-fluid navbar bg-primary shadow p-3" id="azul">
+      <div class="container">
+        <div>
+          <a href="/"
+            ><img
+              src="/media/buho outline cuadrado blanco.png"
+              alt="logo"
+              width="30px"
+              height="auto"
+          /></a>
+        </div>
+        <img
+          data-bs-toggle="collapse"
+          href="#opciones"
+          role="button"
+          aria-expanded="false"
+          aria-controls="opciones"
+          src="/media/hamburguesa.svg"
+          alt="menu"
+          width="30px"
+          height="auto"
+        />
+        <div class="collapse navbar-collapse" id="opciones">
+          <ul class="navbar-nav col justyfy-content-end">
+            <li class="nav-item py-3 text-end">
+              <a style="color: white" class="" href="/">Inicio</a>
+            </li>
+            <li class="nav-item py-3 text-end">
+              <a style="color: white" class="" href="/pages/design/"
+                >Design</a
+              >
+            </li>
+            <li class="nav-item py-3 text-end">
+              <a
+                style="color: white"
+                class=""
+                href="/pages/curriculum/"
+                >Curriculum</a
+              >
+            </li>
+            <li class="nav-item py-3 text-end">
+              <a style="color: white" class="" href="/">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--portada-->
+    <section
+      class="container-fluid d-flex flex-column align-items-center px-4 p-800"
+    >
+      <article
+        class="maxresp container d-flex flex-column flex-lg-row justify-content-center align-items-center"
+      >
+        <div class="d-flex flex-column justify-content-center">
+          <h1 class="py-3 display-2 fw-bold text-end">
+            Un recorrido por el desarrollo web
+          </h1>
+          <p class="fs-5 text-end">
+            En el máster descubrí el desarrollo web. Desde entonces combino mi
+            pasión por el diseño con ese rompecabezas que llamamos desarrollador.
+          </p>
+        </div>
+        <video
+          class="m-5 imagen"
+          autoplay
+          muted
+          loop
+          playsinline
+          src="/media/iphone-para-animacion_1.mp4"
+        ></video>
+      </article>
+    </section>
+
+    <!--desplegable-->
+
+    <section class="py-5 px-4 d-flex flex-column align-items-center">
+      <article class="maxresp d-flex flex-column align-items-start">
+        <h2 class="px-4 py-5">Una selección de proyectos</h2>
+        <div
+          class="accordion accordion-flush container-fluid"
+          id="accordionFlushExample"
+        >
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                Las Vegas
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <p>La web de la cafetería Las Vegas fue la primera que hice. Según salimos de la pandemia, las cartas virtuales eran una necesidad y en el negocio familiar hacía falta una.</p>
+                <p>Un <b>index.html, una hoja de estilos</b>  y un poco de <b>Jquery</b>  fue bastante para poder solucionar el problema. Apenas se ha cambiado desde que se publicó. No es perfecta, pero sirvió de hoja de ruta para el branding del local. <br> Para este proyecto hubo que cuidar la tipografía (Montserrat Alternates), la psicología del color (Tomato), la coloración de las fotos, el diseño de los platos y un sinfín mas de cosas que iluminaron el camino que debía seguir el negocio familiar.</p>
+                <p>Tres meses de máster exprés aprendido HTML y CSS sirvieron para terminar la tarea. Fue en este momento cuando me empezó a interesar el desarrollo web: sobre él, no se termina nunca de aprender. Mi poca experiencia en la materia hizo que surgieran varios problemas que a día de hoy siguen adoleciendo. No obstante le guardo mucho cariño ya que fue la primera y, además, aun hoy sigue cumpliendo su objetivo. </p>
+                <p>Si quieres echar un ojo a la web haz click <a href="https://lasvegascafeteria.es/" target="_blank" > <b>en este enlace</b> </a> </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                Portfolio
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <p>Tras terminar el máster necesitaba un portfolio web. En ese momento tuve que decidir: aprender como funciona Wordpress, comprar una plantilla y sacar mi portfolio para buscar trabajo o seguir aprendiendo desarrollo web, aunque esto me llevara más tiempo. Opté por la segunda vía y este es el resultado.</p>
+                <p>La mejor forma de aprender es practicar así que me puse manos a la obra. Lo primero el diseño, color, tipografía, bocetos y un prototipo con <b>Figma</b> para tener claro qué tenía que hacer a la hora de maquetar.</p>
+                <p>Lo segundo hacer una web que fuera profesional, investigué y di con <b>Eleventy</b> una especie de empaquetador web con muchísimas funciones como paginación, recarga automática de live server... Por último había que decidir las tecnologías a implementar: <b>HTML, CSS, Javascript, Bootstrap, Tailwind, Github</b>, cada pagina de esta web esta maquetada en una de ellas.</p>
+                <p>No dudes en inspeccionar toda la web para comprobar cómo esta construida</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                Copias para practicar
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <p>No hay mejor manera de aprender que fijarse en los mejores. Por eso considero que imitar estilos de páginas consolidadas y bien construidas es una buena práctica para obtener ideas y desarrollarlas.</p>
+                <p><b>Airbnb</b></p>
+               <p>El estilo de Airbnb es inconfundible. Para replicar esta landing page he usado un pluging llamado <b>Mkweb</b> . Usa <b>vite.js</b>  de fondo, crea la estructura de carpetas y añade dependencias de <b>Postcss</b>. La integración con github-pages permite subir a producción a la misma vez que vas construyendo tu repositorio. <a href="https://debordcompany.github.io/airbnb/" target="_blank"><b>Ver la web</b></a> </p>
+               <p><b>Nike</b></p>
+               <p>Copia de la landing page de Nike. Para este ejercicio he usado <b>Eleventy</b>, <b>Scss</b>, <b>git</b>, <b>Html</b>, <b>javascript</b> . Si quieres visitar la web haz clic en este <a href="https://debordcompany.github.io/nike_production/" target="_blank" ><b> enlace</b></a> </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFour"
+                aria-expanded="false"
+                aria-controls="flush-collapseFour"
+              >
+                Soluciones Exclusivas
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingFour"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <p>Soluciones Exclusivas es una empresa de limpieza que necesitaba remodelar su web, la anterior no era responsive, los elementos no cuadraban, estéticamente le faltaba coherencia, sumado a que ésta se encuentra en el ordenador de la empresa...</p>
+                <p>Para esta página he utilizado <b>vite.js</b>  como empaquetador web, <b>HTML, SCSS, Javascript</b>. De momento está alojada en <b>Netlify</b> esperando encontrar hosting y optimizar las imágenes y textos.</p>
+                <p><a href="https://golden-alfajores-bf9886.netlify.app" target="_blank"><b>Ver web</b></a></p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFive"
+                aria-expanded="false"
+                aria-controls="flush-collapseFive"
+              >
+                De Moratalaz al Barrio
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingFive"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <p>2GoTours se fue y De Moratalaz al Barrio viene.</p>
+                <p>A principios de 2022 terminé de colaborar con 2GoTours y pronto surgió una oportunidad de emprender una nueva aventura. DMAB es un proyecto que está naciendo, un blog de barrio dirigido a unificar en un único lugar toda la publicidad de los negocios locales. Moratalaz es el barrio y tres hosteleros de la zona los integrantes de esta pequeña start-up.</p>
+                <p>Crear un blog para generar comunidad, ejercer de agencia de marketing a nivel local para mejorar la estética de los pequeños negocios del barrio que ha ido quedando desfasada y fortalecer el comercio electrónico son los tres pilares que sostienen esta idea. En breve podremos presentar un mínimo producto viable. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="presentacion px-4 d-flex justify-content-center">
+      <div class=" maxresp">
+        <h2 class="presentacion_h2 px-4 ">
+          Proyectos
+        </h2>
+        
+        <div class=" d-flex flex-wrap ">
+          <div class="p-4 flex-fill w-33"><a href="https://lasvegascafeteria.es/" target="_blank"><img src="/media/las_vegas_cuadro.webp" alt="imagen proyecto"></a></div>
+          <div class="p-4 flex-fill w-33"><a href=""><img src="/media/dmab.webp" alt="imagen proyecto"></a></div>
+          <div class="p-4 flex-fill w-33"><a href="/"><img src="/media/portfolio_cuadro.webp" alt="imagen proyecto"></a></div>
+          <div class="p-4 flex-fill w-33"><a href="https://golden-alfajores-bf9886.netlify.app" target="_blank"><img src="/media/soluciones_cuadro.webp" alt="imagen proyecto"></a></div>
+          <div class="p-4 flex-fill w-33"><a href="https://debordcompany.github.io/nike_production/" target="_blank"><img src="/media/nike_cuadro.webp" alt="imagen proyecto"></a></div>
+          <div class="p-4 flex-fill w-33"><a href="https://debordcompany.github.io/airbnb/" target="_blank"><img src="/media/airbnb_cuadro.webp" alt="imagen proyecto"></a></div>
+        </div>
+        
+    </section>
+    <section class="px-4 d-flex flex-column justify-content-center align-items-center">
+      <div class="maxresp">
+        <h2 class="presentacion_h2 px-4">Prototipados</h2>
+      <div class="d-flex flex-wrap">
+        <div data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="flex-fill w-50 p-4"><img src="/media/dmab_prototipo.webp" alt=""></div>
+
+        <div class="d-flex flex-wrap">
+      <div data-bs-toggle="modal" data-bs-target="#staticBackdrop2" class="flex-fill w-50 p-4"><img src="/media/brutalismo.png" alt=""></div>
+    </div>
+    <div class="d-flex flex-wrap">
+      <div class="flex-fill w-50 p-4">
+        <video width="100%" height="100%" controls loop src="/media/mobile-01.mp4"></video>
+      </div>
+      
+    </div>
+      </div>
+
+    </div>
+    
+  </div>
+
+    </section>
+
+
+  
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  
+   <div class="modal-dialog"> 
+    <div class="modal-content">
+      <div class="modal-header">
+        <img class="modal-title" id="staticBackdropLabel">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="scroll">
+          <img class="full_screen" src="/media/dmab_prototipo.webp" alt="">
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  
+  <div class="modal-dialog"> 
+   <div class="modal-content">
+     <div class="modal-header">
+       <img class="modal-title" id="staticBackdropLabel2">
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <div class="scroll">
+         <img class="full_screen" src="/media/brutalismo.png" alt="Prototipo brutalismo">
+       </div>
+       
+     </div>
+     
+   </div>
+ </div>
+</div>
+
+
+    
+<footer class="bg-primary text-white p-4 d-flex justify-content-center py-4 mt-5">
+  <div class="maxresp p-4">
+      <div>
+
+      <div class="d-flex flex-column align-items-start">
+          <div class="politicas">
+              <div class="privacidad d-flex align-items-center my-4">
+                  <h4 class="minimo">Política de privacidad y cookies</h4>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" fill="currentColor" class="mx-4" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                    </svg>
+              </div>
+              
+              <p class="texto">En cumplimiento del Reglamento General de Protección de Datos (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016 y la ley orgánica 3/2018 de 5 de diciembre de Protección de Datos Personales y de Garantía de los Derechos Digitales le informamos que los datos por Vd. proporcionados serán objeto de tratamiento por parte de Debord Company con la finalidad de prestarle el servicio solicitado y/o contratado, realizar la facturación del mismo.
+                  La base legal para el tratamiento de sus datos es la ejecución del servicio por usted contratado y/o solicitado. La oferta prospectiva de productos y servicios está basada en el consentimiento que se le solicita, sin que en ningún caso la retirada de este consentimiento condicione la ejecución del contrato.
+                  Los datos proporcionados se conservarán mientras se mantenga la relación comercial o durante los años necesarios para cumplir con las obligaciones legales. Los datos no se cederán a terceros salvo en los casos en que exista una obligación legal.
+                  Usted tiene derecho a obtener confirmación sobre si en Debord Company estamos tratando sus datos personales y por tanto tiene derecho a ejercer sus derechos de acceso, rectificación, limitación del tratamiento, portabilidad, oposición al tratamiento y supresión de sus datos mediante escrito dirigido a la dirección electrónica arriba mencionada, adjuntando copia del DNI en ambos casos, así como el derecho a presentar una reclamación ante la Autoridad de Control (aepd.es)
+
+                  
+                  </p>
+          </div>
+          <div class=" d-flex justify-content-start">
+              <a class="d-flex flex-column align-items-start text-white" href="https://instagram.com/debordcompany?igshid=YmMyMTA2M2Y=" target="_blank"> Si te ha gustado no dudes en darme like<img class="my-4" src="/media/corazon.png"  width="30px" height="30px" alt="icono corazón"></a>
+          </div>
+          
+          
+     
+      </div>
+      
+      
+      
+  </div>
+  </div>
+  
+</footer>
+    
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="/js/web.js?v=2.42"></script>
+  </body>
+  
+</html>

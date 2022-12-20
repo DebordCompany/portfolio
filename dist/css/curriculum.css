@@ -1,0 +1,30 @@
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.ul{
+    display: none;
+}
+.desplegable{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    opacity: 100;
+}
+hr{
+    border-top: 6px solid rgb(43, 43, 43);
+    margin-top: 10px;
+    
+}
+span{
+    font-weight: 600;
+}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>curriculum - Guarda mi curriculum para cuando lo necesites</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/tailwind.css?v=2.42" />
+    <link rel="stylesheet" href="/css/curriculum.css?v=2.42" />
+    <link rel="icon" type="image/jpg" href="/media/favicon.png" />
+  </head>
+  <body class="text-primary bg-[url('/media/background-paper-texture.webp')]">
+    <header class="bg-primary text-white">
+      <nav
+        class="max-w-7xl mx-auto flex flex-row justify-between px-5 py-2 items-start"
+      >
+        <div class="p-3">
+          <a href="/"
+            ><img
+              src="/media/buho outline cuadrado blanco.png"
+              alt="logo"
+              width="30px"
+              height="auto"
+          /></a>
+        </div>
+        <div class="menu flex flex-col p-3 items-end">
+          <img
+            class="m-2 cursor-pointer"
+            id="accion"
+            src="/media/hamburguesa.svg"
+            alt="menu"
+            width="30px"
+            height="auto"
+          />
+          <ul class="text-right p-2 ul" id="hide">
+            <li class="py-2">
+              <a href="/pages/web-dev/">Web Dev</a>
+            </li>
+            <li class="py-2"><a href="/pages/design/">Design</a></li>
+            <li class="py-2">
+              <a href="/pages/curriculum/">Curriculum</a>
+            </li>
+            <li class="py-2">
+              <a href="/" id="contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="main">
+      <section
+        class="px-10 py-24 text-right text-primary grid sm:grid-cols-3 mix-blend-multiply opacity-80 drop-shadow"
+      >
+        <!--CONTACTO-->
+        <article class="p-2 sm:p-4 flex flex-col justify-center">
+          <h1 class="text-3xl font-light">Curriculum Vitae</h1>
+          <a
+            class="flex flex-row justify-end my-4"
+            href="/media/curriculum-download.pdf"
+            download
+          >
+             <h2 class="mx-2">Guárdame</h2>
+            <img class="w-5 h-auto"  src="/media/guardar.png" alt="icono guardar"
+          /></a>
+          <hr class="pt-3" />
+          <h2 class="py-3 font-bold text-2xl">Contacto</h2>
+          <ul class="pb-6">
+            <li class="py-1">Mario Sanz Gutiérrez</li>
+            <li class="py-1">14/07/1992</li>
+            <li class="py-1">653901643</li>
+            <li class="py-1">work@debordcompany.es</li>
+            <li class="py-1"><a href="">@debordcompany</a></li>
+          </ul>
+          <hr class="pt-3" />
+        </article>
+        <!--ESTUDIOS-->
+        <article class="p-2 sm:p-4">
+          <!--GENERALES-->
+          <div class="p-2">
+            <h2 class="py-3 font-bold text-2xl">Estudios</h2>
+            <ul class="pb-6">
+              <li class="py-1">
+                Hasta Bachillerato -- <span>Colegio Joyfe</span>
+              </li>
+              <li class="py-1">
+                Universidad --
+                <span>Complutense Madrid: Grado en Filosofía (2008-2012)</span>
+              </li>
+              <li class="py-1">
+                Máster <span>Diseño gráfico y desarrollo web en Trazos</span>
+              </li>
+              <li class="py-1">
+                Cursos --
+                <span>Domestika, Coursera, Google Activate ...</span>
+              </li>
+              
+            </ul>
+            <hr class="pt-3" />
+          </div>
+          <!--DISEÑO-->
+          <div class="p-2">
+            <h2 class="py-3 font-bold text-2xl">
+              Competencias en Diseño Gráfico
+            </h2>
+            <ul class="pb-6">
+              <li class="py-1">Nivel alto -- <span>Adobe Photoshop</span></li>
+              <li class="py-1">-- <span>Adobe Illustrator</span></li>
+              <li class="py-1">-- <span>Adobe After Effects</span></li>
+              <li class="py-1">-- <span>Cinema 4D</span></li>
+              <li class="py-1">-- <span>Adobe Lightroom</span></li>
+              <li class="py-1">Nivel medio -- <span>Adobe Indesign</span></li>
+              <li class="py-1">-- <span>Adobe Premiere</span></li>
+              <li class="py-1">-- <span>Adobe Animate</span></li>
+            </ul>
+            <hr class="pt-3" />
+          </div>
+          <!--WEB-->
+          <div class="p-2">
+            <h2 class="py-3 font-bold text-2xl">Competencias Web Dev</h2>
+            <ul class="pb-6">
+              <ul class="pb-6">
+                <li class="py-1">Nivel alto -- <span>Html 5</span></li>
+                <li class="py-1">-- <span>Css 3</span></li>
+                <li class="py-1">-- <span>Sass</span></li>
+                <li class="py-1">-- <span>Tailwind</span></li>
+                <li class="py-1">-- <span>Figma</span></li>
+                <li class="py-1">-- <span>Bootstrap</span></li>
+                <li class="py-1">Nivel medio -- <span>Jquery</span></li>
+                <li class="py-1">-- <span>Github</span></li>
+                <li class="py-1">En proceso de aprendizaje -- <span>Javascript</span></li>
+                <li class="py-1">-- <span>Eleventy</span></li>
+                <li class="py-1">-- <span>JSON ( ApiRest )</span></li>
+                <li class="py-1">-- <span>Vite.js</span></li>
+                <li class="py-1">-- <span>Wordpress</span></li>
+                <li class="py-1">-- <span>PHP</span></li>
+              </ul>
+            </ul>
+            <hr class="pt-3" />
+          </div>
+        </article>
+
+        <!--EXPERIENCIA-->
+        <article class="p-2 sm:p-4">
+          <!--Camisetas-->
+          <div>
+            <h2 class="py-3 font-bold text-2xl">Creación de marca</h2>
+            <ul class="pb-6">
+              <li class="py-1">
+                En 2016 creé una
+                <span>marca de camisetas deportivas.</span> Dada mi relación con
+                el mundo de los dardos aproveché para generar una marca nicho en
+                este sector. Entre las competencias que desarrollé están las siguientes:
+              </li>
+              <li class="py-1">-- Diseño de camisetas</li>
+              <li class="py-1">-- Generación de archivos de arte final</li>
+              <li class="py-1">-- Gestión de personalización con cliente</li>
+              <li class="py-1">-- Envío y seguimiento de pedidos</li>
+              <li class="py-1">-- Generación de marca en RR.SS</li>
+              <li class="py-1">
+                -- Entre mis clientes están: Profesionales darderos,<span
+                  > Federación Radikal Spain,</span
+                >
+                 particulares y varias federaciones locales de dardos
+              </li>
+            </ul>
+            <hr class="pt-3" />
+          </div>
+          <!--start-up-->
+          <div>
+            <h2 class="py-3 font-bold text-2xl">Start-Up</h2>
+            <ul class="pb-6">
+              <li class="py-1">
+                En 2020 formé parte de una
+                <span>start-up llamada 2GoTours</span> , durante dos años. Junto a mis compañeros
+                aprendí a trabajar con
+                <span
+                  >deadlines muy ajustados, interactuar con los distintos
+                  departamentos, estrategias de venta</span
+                >
+                etcétera. En este proyecto
+                realicé las siguientes funciones
+              </li>
+              <li class="py-1">-- Diseño de Landing pages</li>
+              <li class="py-1">-- Maquetación de merchandaising</li>
+              <li class="py-1">-- Explainer videos</li>
+              <li class="py-1">-- Spots publicitarios para redes</li>
+              <li class="py-1">-- Pitch deck para inversores</li>
+              <li class="py-1">
+                -- y muchos retos que surgían en el día a
+                día.
+              </li>
+            </ul>
+            <hr class="pt-3" />
+          </div>
+          <!--varios-->
+          <div>
+            <h2 class="py-3 font-bold text-2xl">Competencias personales (soft skills)</h2>
+            <ul class="pb-6">
+              
+              <li class="py-1">Durante 8 años he acompañado a mi padre en la gestión del negocio familiar "Las Vegas". A modo de chascarrillo siempre digo que soy el departamento de IT, diseñador gráfico, desarrollador web, recursos humanos, psicólogo, enfermero, cocinero, camarero, creativo, departamento de marketing y un sinfín más de puestos por los que me debería subir el sueldo. Bromas a parte, esta experiencia me ha servido para desarrollar diversas habilidades:</li>
+              <li class="py-1">-- <span>Gestión de equipos</span></li>
+              <li class="py-1">-- <span>Resolución de problemas</span></li>
+              <li class="py-1">-- <span>Planificación del trabajo</span></li>
+              <li class="py-1">-- <span>Optimización de recursos</span></li>
+              <li class="py-1">-- <span>Trato con el cliente</span></li>
+              <li class="py-1">-- <span>Creatividad</span></li>
+              <li class="py-1">-- <span>Liderazgo</span></li>
+            </ul>
+            <hr class="pt-3" />
+          </div>
+        </article>
+      </section>
+    </div>
+
+    <script defer src="/js/curriculum.js?v=2.42"></script>
+  </body>
+</html>

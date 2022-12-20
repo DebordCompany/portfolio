@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+  
+  
+}
+a {
+  text-decoration: none;
+}
+.bg-oficial {
+  background-color: #ffb800;
+}
+.maxresp{
+  width: 100%;
+}
+.imagen {
+  width: 100%;
+  height: auto;
+
+  clip-path: inset(2px 2px);
+}
+.w-33{
+  width: 33%;
+  min-width: 125px;
+  
+}
+.w-50{
+  width: 50%;
+  
+}
+
+.flex-fill img{
+  width: 100%;
+}
+.full_screen{
+  width: auto;
+  height: 50vh;
+}
+.scroll{
+  overflow: scroll;
+}
+@media  ( min-width:596px) {
+  .full_screen{
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+.top20 {
+  top: 20%;
+}
+.top5 {
+  top: 0%;
+}
+.p-800 {
+  padding-top: 3rem;
+}
+
+.constric {
+  height: 600px;
+}
+.desaparece {
+  display: none;
+}
+.aparece {
+  display: block;
+  animation-name: entrar;
+  animation-duration: 2s;
+}
+.presentacion {
+  font-size: 2rem;
+}
+.presentacion_h2 {
+  padding: 3rem;
+}
+.presentacion_flecha {
+  width: 30px;
+
+  animation-name: derecha;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+@keyframes derecha {
+  0% {
+    transform: translateX(20px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(120px);
+    opacity: 0;
+  }
+}
+.centrado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.carrousel {
+  display: flex;
+
+  padding: 0 2rem;
+  max-width: 270px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+.carrousel_a {
+  scroll-snap-align: center;
+  margin-right: 5rem;
+}
+.carrousel_texto {
+  padding: 1rem 2.2rem;
+}
+.carrousel_img {
+  width: 200px;
+}
+
+@keyframes entrar {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.azul {
+  background-color: blue;
+}
+.fs-7 {
+  font-size: 2.5rem;
+}
+.texto{
+  display: none;
+}
+
+.desplegar {
+  display: flex;
+}
+
+@media (min-width: 600px) {
+  
+  .max800 {
+    max-width: 800px;
+  }
+  .max600 {
+    max-width: 600px;
+  }
+  .maxresp {
+    width: 75%;
+  }
+
+  .top20 {
+    top: 10%;
+  }
+  .p-800 {
+    padding-top: 1rem;
+  }
+  .imagen {
+    width: 80%;
+    height: auto;
+  }
+  .carrousel {
+    max-width: 700px;
+  }
+  .carrousel_a {
+    scroll-snap-align: start;
+  }
+}
+
+@media (min-width: 1024px) {
+  .primera {
+    flex-direction: row;
+  }
+  .maxresp {
+    width: 1000px;
+  }
+  .top20 {
+    top: 20%;
+  }
+  .imagen {
+    width: 70%;
+    height: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .maxresp {
+    width: 1200px;
+  }
+}
